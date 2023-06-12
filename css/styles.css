@@ -1,0 +1,504 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+body {
+    margin: 0;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* button */
+button:hover {
+    background: white;
+    color: black;
+    border: #000 solid;
+}
+/* logo */
+img[src$="logo.png"] {
+    width: 7%;
+}
+/* nav */
+nav {
+    width: 97%;
+    margin: 0.5% auto 0;
+    letter-spacing: 2px;
+}
+.black, .nav-link {
+    color: black;
+}
+.navbar-text {
+    text-decoration: none;
+}
+.nav-link:hover {
+    border-bottom: #000 solid;
+}
+/* circles */
+#circles {
+    position: relative;
+    padding-bottom: 10%;
+}
+#dark-grad {
+    width: 27rem;
+    height: 27rem;
+    background-image: linear-gradient(to right, #000 , #737373);
+    border-radius: 50%;
+    position: relative;
+    left: 67%;
+    top: 13rem;
+}
+#white-grad {
+    width: 22rem;
+    height: 22rem;
+    background-image: linear-gradient(to right, #a6a6a6 , #fff);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    left: 60%;
+    top: 12rem;
+}
+/* landing fonts */
+.greet {
+    font-weight: bold;
+    font-size: xx-large;
+    color: #545454;
+    letter-spacing: 4px;
+    line-height: 2;
+}
+.greet-n-meet {
+    position: absolute;
+    left: 5%;
+    top: 30%;
+}
+.meet {
+    font-size: 300%;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    line-height: 1.4;
+}
+/* button */
+.get-in-touch {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    background: #000;
+    border-radius: 5rem;
+    height: 3rem;
+    width: 14%;
+    letter-spacing: 3px;
+    font-size: 90%;
+    font-weight: 600;
+}
+/* landing page sec */
+#landing-page-sec {
+    padding-bottom: 10%;
+}
+/* page 2 */
+#about {
+    padding-top: 14%;
+    padding-bottom: 5%;
+}
+.head {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    letter-spacing: 3px;
+}
+.about-me-desc {
+    line-height: 2;
+}
+.about-me-div {
+    width: 30%;
+    position: relative;
+    left: 62%;
+    top: -15rem;
+}
+img[src$="desk.png"] {
+    position: relative;
+    left: 11%;
+    top: 4rem;
+    width: 40%;
+}
+#about button {
+    margin-top: 5%;
+    height: 3rem;
+    width: 12rem;
+}
+/* contact */
+#contact {
+    margin-bottom: 10%;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 6%;
+    margin-bottom: 15%;
+    text-align: center;
+}
+/* form */
+form {
+    padding: 15%;
+    padding-top: 8%;
+    padding-bottom: 10%;
+    background-color: #000000;
+    color: #F6F1F1;
+    border-radius: 2rem;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15%;
+}
+form legend {
+    font-size: 250%;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+form p {
+    font-size: 150%;
+    letter-spacing: 1.5px;
+}
+#form-contents {
+    width: 120%;
+    position: relative;
+    right: 2rem;
+    margin-top: 20%;
+    text-align: left;
+    position: relative;
+}
+#form-contents label{
+    letter-spacing: 2px;
+    margin: 0.5% auto 2% 0;
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 90%;
+    opacity: 90%;
+}
+#form-contents .label-bg {
+    background-color: #a6a6a6;
+    border-radius: 2rem;
+    height: 2rem;
+    position: absolute;
+    opacity: 25%;
+    top: 3%;
+}
+.label1, .label2, .label3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.label-bg1 {
+    width: 21%;
+    top: 12%;
+}
+.label-bg2 {
+    width: 41%;
+    top: 15%;
+}
+.label-bg3 {
+    width: 27%;
+    margin-top: -1%;
+}
+#form-contents sup {
+    color: red;
+}
+#form-contents input, textarea {
+    border-radius: 0.5rem;
+    padding: 1% 2%;
+    width: 100%;
+    background-color: #fff;
+}
+#form-contents input:not(#submit) {
+    height: 3rem;
+}
+#form-contents input, #form-contents textarea:focus {
+    outline: none;
+}
+#form-contents #submit {
+    width: 35%;
+    height: 2.75rem;
+    display: block;
+    margin: 10% 0 auto auto;
+    background-color: black;
+    border: solid white;
+    color: white;
+    font-size: larger;
+    border-radius: 2rem;
+    letter-spacing: 2px;
+}
+#form-contents #submit:hover {
+    background-color: #fff;
+    color: black;
+    border: solid black;
+}
+/* footer */
+#footer {
+    width: 100%;
+    padding: 7% 0;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+#footer i {
+    margin-right: 5%;
+}
+#footer a {
+    margin-bottom: 0rem;
+    width: 30%;
+    margin: 0 auto;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    letter-spacing: 2px;
+}
+#footer a:hover {
+    color: #cbcbcb;
+}
+#footer div {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2%;
+}
+#footer p {
+    position: relative;
+    top: 110px;
+    color: #a6a6a6;
+    text-align: center;
+}
+/* profile */
+#profile {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+#profile p {
+    text-align: center;
+}
+#profile table {
+    margin-top: 5%;
+    width: 100%;
+    font-size: 120%;
+    border: solid black;
+}
+#profile td {
+    width: 50%;
+    height: 2rem;
+    border-bottom: solid black;
+    border-left: solid black;
+    padding: 1%;
+}
+#profile td .td-span {
+    color: #55555579;
+}
+#profile .li-none {
+    list-style: none;
+}
+#resume {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 11.85%;
+    margin-bottom: 10%;
+}
+#resume div {
+    text-align: center;
+}
+#resume div a:first-child {
+    margin-right: 10%;
+}
+#resume button {
+    width: 40%;
+    padding: 2% 5%;
+    font-size: 170%;
+    border-radius: 5rem;
+    background-color: #000000;
+    color: white;
+    letter-spacing: 2px;
+}
+#resume button:hover {
+    background-color: white;
+    border: solid black;
+    color: black;
+} 
+@media (min-width: 1537px) {
+    * {
+        transform: scale(1.001);
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+    nav {
+        transform: scale(0.8);
+        width: calc(120%);
+        margin-left: -10%;
+    }
+    section:not(#footer) {
+        transform: scale(0.8);
+    }
+    #landing-page-sec {
+        width: 100%;
+        margin: 0 auto;
+        margin-left: -5%;
+    }
+    .greet-n-meet {
+        margin-left: -5%;
+    }
+    #circles {
+        margin-top: -5%;
+        margin-right: -17%;
+    }
+    #contact {
+        width: 50%;
+        margin-top: -10%;
+    }
+    #footer a {
+        transform: scale(0.7);
+    }
+    #footer p {
+        width: 136.5%;
+        margin-left: -20%;
+        position: absolute;
+        top: 350%;
+    }
+    #contact-page {
+        margin-top: 3%;
+        margin-bottom: -10%
+    }
+    #contact-page #contact {
+        width: 60%;
+    }
+    #profile {
+        margin-top: -5%;
+        width: 90%;
+    }
+    #resume {
+        margin-top: 10.5%;
+        margin-bottom: 10.25%;
+    }
+}
+@media (max-width: 1023px) {
+    * {
+        position: relative;
+    }
+    .navbar-brand {
+        width: calc(70%);
+    }
+    .navbar-brand img {
+        width: 15%;
+    }
+    .nav-link {
+        display: flex;
+        justify-content: right;
+    }
+    .pe-5 {
+        padding-right: 0rem!important;
+    }
+    .fa-envelope {
+        padding: 0;
+        margin: auto 0;
+    }
+    #landing-page-sec {
+        margin-top: 15%;
+    }
+    #landing-page-sec .greet-n-meet {
+        position: relative;
+        width: calc(90%);
+        left: 0;
+    }
+    #landing-page-sec .greet, .meet {
+        transform: scale(0.8);
+        left: -2%;
+    }
+    #landing-page-sec .meet {
+        left: -7%;
+    }
+    #landing-page-sec button {
+        width: calc(50%);
+        left: 10%;
+    }
+    #circles {
+        width: calc(95%);
+        transform: scale(0.8);
+        position: relative;
+        margin: 0 auto;
+        left: 5%;
+        margin-top: 20%;
+    }
+    #white-grad, #dark-grad {
+        top: 0;
+        right: 0;
+        left: -12.5%;
+        transform: scale(0.8*width);
+    }
+    #about {
+        width: calc(100%);
+        margin: 0 auto;
+    }
+    .about-me-div {
+        width: calc(80%);
+        left: calc(0%);
+        margin: 0 auto;
+        margin-top: 40%;
+        text-align: center;
+    }
+    img[src$="desk.png"] {
+        width: 0;
+    }
+    #home-contact {
+        margin-top: calc(-20%);
+        width: calc(95%);
+        margin: 0 auto;
+    }
+    #contact {
+        width: calc(95%);
+        margin-top: calc(-20%);
+        margin-bottom: 35%;
+    }
+    #contact .head {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    form {
+        width: calc(100%);
+    }
+    #form-contents {
+        left: calc(-10%);
+    }
+    .label-bg {
+        margin-top: calc(-0.5%);
+    }
+    .label-bg1 {
+        width: calc(25%);
+    }
+    .label-bg2 {
+        width: calc(50%);
+    }
+    .label-bg3 {
+        margin-top: calc(-1.5%);
+        width: calc(32%);
+    }
+    #contact #submit {
+        width: calc(100%);
+    }
+    #footer {
+        width: calc(100%);
+    }
+    #footer a {
+        display: block;
+        width: calc(50%);
+        margin-bottom: 5%;
+    }
+    #footer div {
+        margin-top: 5%;
+        margin-bottom: -5%;
+    }
+    #footer p {
+        top: 0;
+    }
+}
