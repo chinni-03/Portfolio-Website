@@ -332,56 +332,6 @@ form p {
         justify-content: center;
     }
 }
-/* @media (min-width: 1024px) and (max-width: 1280px) {
-    nav {
-        transform: scale(0.8);
-        width: calc(120%);
-        margin-left: -10%;
-    }
-    section:not(#footer) {
-        transform: scale(0.8);
-    }
-    #landing-page-sec {
-        width: 100%;
-        margin: 0 auto;
-        margin-left: -5%;
-    }
-    .greet-n-meet {
-        margin-left: -5%;
-    }
-    #circles {
-        margin-top: -5%;
-        margin-right: -17%;
-    }
-    #contact {
-        width: 50%;
-        margin-top: -10%;
-    }
-    #footer a {
-        transform: scale(0.7);
-    }
-    #footer p {
-        width: 136.5%;
-        margin-left: -20%;
-        position: absolute;
-        top: 350%;
-    }
-    #contact-page {
-        margin-top: 3%;
-        margin-bottom: -10%
-    }
-    #contact-page #contact {
-        width: 60%;
-    }
-    #profile {
-        margin-top: -5%;
-        width: 90%;
-    }
-    #resume {
-        margin-top: 10.5%;
-        margin-bottom: 10.25%;
-    }
-} */
 @media (max-width: 1023px) {
     * {
         position: relative;
